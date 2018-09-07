@@ -1,0 +1,88 @@
+#message[input=text],
+select,
+textarea {
+    height: 200px;
+    width: 950px;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #666666;
+    text-align: right;
+    height: 50px;
+    margin: 0 auto;
+    float: left;
+    border-bottom: solid 10px #4aaaa5;
+    color: white;
+    height: 80px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    position: relative;
+    top: 30px;
+    position: relative;
+    right: 460px;
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 960px;
+    background: white;
+    margin: 0 auto 0 auto;
+    line-height: 2;
+    margin-top: 150px;
+    overflow: auto;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+body {
+    background: url(http://i.pinimg.com/originals/97/14/16/971416d7e102e2de163c3a1cb7a374e7.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    color: #777777;
+}
+
+#submit {
+    width: 70px;
+    height: 35px;
+    color: white;
+    background-color: #4aaaa5;
+    border: none;
+}
+
+label {
+    font-size: 16pt;
+}
+
+h1 {
+    border-bottom: solid lightgray 2px;
+    color: #4aaaa5;
+    font: Georgia;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    border-top: solid 10px #4aaaa5;
+    text-align: center;
+}
+
+#name {
+    float: left;
+    position: absolute;
+    top: 23px;
+    background-color: #4aaaa5;
+    font-size: 25pt;
+    color: white;
+}

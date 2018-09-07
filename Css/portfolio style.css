@@ -1,0 +1,208 @@
+.navbar {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #666666;
+    text-align: right;
+    height: 50px;
+    margin: 0 auto;
+    float: left;
+    border-bottom: solid 10px #4aaaa5;
+    color: white;
+    height: 80px;
+}
+
+.wrapper {
+    width: 960px;
+    background: white;
+    margin: 0 auto 0 auto;
+    line-height: 2;
+    margin-top: 150px;
+    overflow: auto;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+body {
+    background: url(http://i.pinimg.com/originals/97/14/16/971416d7e102e2de163c3a1cb7a374e7.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    color: #777777;
+}
+
+#nav1,
+#nav2,
+#nav3 {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    position: relative;
+    top: 30px;
+    position: relative;
+    right: 460px;
+    font-size: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    border-top: solid 10px #4aaaa5;
+    text-align: center;
+}
+
+h1 {
+    border-bottom: solid lightgray 2px;
+    color: #4aaaa5;
+    font: Georgia;
+}
+
+#name {
+    float: left;
+    position: absolute;
+    top: 23px;
+    background-color: #4aaaa5;
+    font-size: 25pt;
+    color: white;
+}
+
+.hangman {
+    display: block;
+    background-color: #4aaaa5;
+    text-decoration: none;
+    color: white;
+    float: left;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.hangman {
+    position: absolute;
+    width: 250px;
+    text-align: center;
+}
+
+#hang{
+    top: 37%;
+    left: 31.01%;
+}
+
+#img1 {
+    z-index: 0;
+}
+
+.img2 {
+    z-index: 0;
+}
+
+.cards {
+    text-align: center;
+}
+
+#rpg {
+    right: 31%;
+    top: 37%;
+}
+
+#triv {
+    left: 31.01%;
+    top: 54%;
+}
+
+#widg {
+    right: 31%;
+    top: 54%;
+}
+
+#rock {
+    left: 31.01%;
+    top: 70.5%;
+}
+
+.leftcard {
+    width: 50%;
+    float: left;
+}
+
+.rightcard {
+    width: 50%;
+    float: right;
+}
+
+@media screen and (max-width: 980px) {
+    #hang{
+        top: 37%;
+        left: 14.8%;
+    }
+    
+    #img1 {
+        z-index: 0;
+    }
+    
+    .cards {
+        text-align: center;
+    }
+    
+    #rpg {
+        right: 9.4%;
+        top: 37%;
+    }
+    
+    #triv {
+        left: 14.8%;
+        top: 53%;
+    }
+    
+    #widg {
+        right: 9.4%;
+        top: 54%;
+    }
+    
+    #rock {
+        left: 14.8%;
+        top: 69.5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #hang{
+        top: 37%;
+        left: 14.8%;
+    }
+    
+    #img1 {
+        z-index: 0;
+    }
+    
+    .cards {
+        text-align: center;
+    }
+    
+    #rpg {
+        right: 9.4%;
+        top: 37%;
+    }
+    
+    #triv {
+        left: 14.8%;
+        top: 53%;
+    }
+    
+    #widg {
+        right: 9.4%;
+        top: 54%;
+    }
+    
+    #rock {
+        left: 14.8%;
+        top: 69.5%;
+    }
+    .leftcard {
+    width: 10%;
+    }
+}
+
